@@ -12,8 +12,14 @@ def read_orders_csv(path: Path) -> DataFrame:
         keep_default_na=True,
     )
 
-def read_users_csv(path: Path) -> DataFrame:
-    ...
+def read_users_csv(path: Path) -> pd.DataFrame:
+    return pd.read_csv(
+        path,
+        dtype={"user_id": "string"},
+        na_values=NA,
+        keep_default_na=True,
+    )
+
 
 def write_parquet(df: DataFrame, path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)

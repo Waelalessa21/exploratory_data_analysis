@@ -1,7 +1,7 @@
 ,n_missing,p_missing
-quantity,534,0.10171428571428572
-status,513,0.09771428571428571
-created_at,507,0.09657142857142857
-amount,495,0.09428571428571429
+quantity,508,0.1016
+created_at,503,0.1006
+status,492,0.0984
+amount,472,0.0944
 order_id,0,0.0
 user_id,0,0.0
