@@ -9,7 +9,7 @@ dependencies = [
     "choreographer",
     "comm",
     "debugpy",
-    "notebook"
+    "notebook",
     "decorator",
     "duckdb",
     "executing",
