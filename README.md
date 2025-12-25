@@ -2,6 +2,10 @@
 
 
 ## clone the repo
+```bash
+git clone https://github.com/Waelalessa21/exploratory_data_analysis.git
+cd exploratory_data_analysis
+```
 
 ## Setup
 
@@ -19,29 +23,13 @@ uv sync
 ```
 
 
-Install dependencies:
-
-```bash
-uv pip install -r requirements.txt
-```
-
-
-
-
 ## Running the Notebook
 
 1. Launch Jupyter Notebook:
 
 ```bash
-jupyter notebook
+uv run jupyter notebook
 ```
 
-2- run cells from top to bottom
 
 
-## Optional: Running with UVX
-
-
-```bash
-uvx git+https://github.com/Waelalessa21/exploratory_data_analysis profile data/processed/analytics_table.parquet --out-dir outputs
-```
