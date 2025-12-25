@@ -19,3 +19,14 @@ Install dependencies:
 uv pip install -r requirements.txt
 ```
 
+
+
+## Running the Notebook
+
+1. Launch Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+2- run cells from top to bottom
