@@ -28,7 +28,7 @@ uv sync
 1. Launch Jupyter Notebook:
 
 ```bash
-uv run jupyter notebook
+uv run jupyter notebook notebooks/eda.ipynb
 ```
 
 
