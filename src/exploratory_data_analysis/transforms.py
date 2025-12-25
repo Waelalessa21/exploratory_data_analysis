@@ -69,8 +69,6 @@ def add_time_parts(df: pd.DataFrame, col: str) -> pd.DataFrame:
     )
 
 
-
-
 def iqr_bounds(s: pd.Series, k: float = 1.5) -> tuple[float, float]:
     x = s.dropna()
     q1 = x.quantile(0.25)
