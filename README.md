@@ -30,3 +30,11 @@ jupyter notebook
 ```
 
 2- run cells from top to bottom
+
+
+## Optional: Running with UVX
+
+
+```bash
+uvx git+https://github.com/Waelalessa21/exploratory_data_analysis profile data/processed/analytics_table.parquet --out-dir outputs
+```
