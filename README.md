@@ -12,12 +12,19 @@ uv venv
 source .venv/bin/activate
 ```
 
+or 
+
+```bash
+uv sync
+```
+
+
 Install dependencies:
 
 ```bash
-
 uv pip install -r requirements.txt
 ```
+
 
 
 
